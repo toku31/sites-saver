@@ -195,7 +195,8 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'sitesSaver/static')
 ]
     
-MEDIA_ROOT = 'static/assets/img/profiles/'
+# MEDIA_ROOT = 'static/assets/img/profiles/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/images/'
 
 # Default primary key field type
