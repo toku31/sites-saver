@@ -1,6 +1,5 @@
 from dataclasses import field
 from sre_constants import CATEGORY
-from tkinter import Widget
 from django.forms import ModelForm, widgets
 from .models import Review, Site, Category, Tag
 from django import forms
