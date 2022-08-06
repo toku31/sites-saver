@@ -1,4 +1,3 @@
-from turtle import onclick
 from django.db import models
 import uuid
 from users.models import Profile
