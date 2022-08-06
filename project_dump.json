@@ -538,17 +538,6 @@
 },
 {
     "model": "sites.review",
-    "pk": "37fe4e3f-dcf8-4b9e-9274-5eeeb0321eae",
-    "fields": {
-        "owner": "011c4c89-e8ea-45e9-8d57-61d3a0c5b5ec",
-        "site": "fc81ee66-af7a-41b0-92a3-2f8980bc2e2f",
-        "body": "ためになりました",
-        "value": "up",
-        "created": "2022-07-27T14:13:52.874Z"
-    }
-},
-{
-    "model": "sites.review",
     "pk": "f0971d3b-2336-494d-ab38-d32334fe033c",
     "fields": {
         "owner": "915d4c72-cd2c-4ebb-a1ad-2d66a139063b",
@@ -556,25 +545,6 @@
         "body": "参考になりました",
         "value": "up",
         "created": "2022-07-23T02:35:32.123Z"
-    }
-},
-{
-    "model": "users.profile",
-    "pk": "011c4c89-e8ea-45e9-8d57-61d3a0c5b5ec",
-    "fields": {
-        "user": [
-            "test"
-        ],
-        "name": "テスト",
-        "email": "test@gmail.com",
-        "username": "test",
-        "location": null,
-        "short_intro": null,
-        "bio": "Hello",
-        "profile_image": "03.jpg",
-        "social_github": null,
-        "social_website": null,
-        "created": "2022-07-27T13:44:33.510Z"
     }
 },
 {
