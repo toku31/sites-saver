@@ -1,7 +1,5 @@
 databases:
-  - name: sites-saver
-    databaseName: sites-saver
-    user: postgres
+  - default: dj_database_url.config(default='postgres://postgres:test123@localhost/sites-saver')
     region: singapore
     plan: free
 
